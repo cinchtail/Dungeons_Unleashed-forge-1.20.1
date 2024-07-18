@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dungeonsunleashed:block/seaweed_encrusted_cut_polished_granite"
+  }
+}

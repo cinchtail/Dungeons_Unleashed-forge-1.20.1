@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dungeonsunleashed:block/granite_bricks",
+    "side": "dungeonsunleashed:block/granite_bricks",
+    "top": "dungeonsunleashed:block/granite_bricks"
+  }
+}

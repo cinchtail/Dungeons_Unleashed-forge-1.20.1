@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+  "dungeonsunleashed:cut_polished_granite",
+    "dungeonsunleashed:granite_bricks",
+    "dungeonsunleashed:granite_brick_wall",
+    "dungeonsunleashed:granite_brick_slab",
+    "dungeonsunleashed:granite_brick_stairs",
+    "dungeonsunleashed:cracked_granite_bricks",
+    "dungeonsunleashed:seaweed_encrusted_cut_polished_granite"
+  ]
+}
