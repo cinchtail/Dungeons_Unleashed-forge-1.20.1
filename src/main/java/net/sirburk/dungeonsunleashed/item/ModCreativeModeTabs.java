@@ -25,7 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GRANITE_BRICK_WALL.get());
                         output.accept(ModBlocks.CRACKED_GRANITE_BRICKS.get());
                         output.accept(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get());
-
+                        output.accept(ModItems.VOID_POOL_BUCKET.get());
 
                     }).build());
     public static void register(IEventBus eventBus) {
