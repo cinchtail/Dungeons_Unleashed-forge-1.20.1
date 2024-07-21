@@ -4,11 +4,14 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.sirburk.dungeonsunleashed.DungeonsUnleashed;
+import net.sirburk.dungeonsunleashed.fluid.ModFluids;
 import net.sirburk.dungeonsunleashed.item.ModItems;
 
 import java.util.function.Supplier;
@@ -45,7 +48,9 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
-
+    public static final RegistryObject<LiquidBlock> VOID_POOL = BLOCKS.register("void_pool",
+            () -> new LiquidBlock(ModFluids.SOURCE_VOID_POOL, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK)
+                    .replaceable().noCollission().strength(100.0F).pushReaction(PushReaction.DESTROY).noLootTable().liquid().sound(SoundType.EMPTY)));
 
 
 
